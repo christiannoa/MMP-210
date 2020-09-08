@@ -1,0 +1,103 @@
+/* our comments go here */
+
+/* generic seletor */
+
+
+body {
+	background-color: white;
+	color: black;
+	font-family: helvetica, verdana;
+ }
+
+ ul {
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+ li{
+ 	list-style: none;
+ }
+
+ a {
+ 	color: black;
+ 	transition: color 200ms ease-in ;
+ }
+
+ /* psuedo selector - user interacts */
+
+ a:hover {
+ 	color: red;
+ }
+
+img {
+	width: 100%;
+}
+ /* id and class selector */
+
+ #container {
+ 	min-width: 320px;
+ 	max-width: 960px;
+ 	margin: 0 auto;
+ }
+
+ #header {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	align-items: baseline;
+
+ }
+
+/* nested selector */
+#header ul {
+
+	display: flex;
+}
+
+
+#header li {
+	margin-left: 1em;
+
+}
+
+#header a {
+	font-size: 1em;
+
+}
+
+#portfolio {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 1em;
+}
+
+
+.project {
+	border: 1px solid black;
+	padding: 1em;
+	background-color: transparent;
+	transition: background-color 200ms ease-in;
+	text-align: center;
+
+}
+
+.project:hover {
+	background-color: grey;
+
+}
+.project a {
+	font-size: 1em;
+	text-decoration: none;
+	
+}
+
+/* about */
+
+#portrait {
+	width: 600px;
+	float: right;
+}
+
+#about p {
+	font-size: 2em;
+}
+
