@@ -27,5 +27,5 @@ function draw() {
     fill("black");
     textSize(28);
     textFont("monospace");
-    text("Nice work!");
+    text("Nice work!", 65, 110);
 }
