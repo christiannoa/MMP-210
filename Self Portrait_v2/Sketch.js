@@ -28,7 +28,7 @@ function draw() {
 	//eyebrows
 	stroke("#000000"); //black
 	strokeWeight(5);
-	line(x - 125, y - 125, x - 40, y - 100); //left
+	line(x - 75, y - 125, x - 40, y - 100); //left
 
 	// eyes
 	stroke("#000000");	//black
