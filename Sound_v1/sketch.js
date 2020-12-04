@@ -8,15 +8,16 @@ var welcomeImage, miamiImage;
 var relaxSound;
 
 function preload() {
-	welcomeImage = loadImage("welcome.png");
-	miamiImage = loadImage("miami.jpg");
-	relaxSound = loadSound("vibe.mp3");
+	welcomeImage = loadImage('welcome.png');
+	miamiImage = loadImage('miami.jpg');
+	relaxSound = loadSound('vibe.mp3');
 
 }
 
 function setup() {
 	createCanvas (960, 600);
 	relaxSound.playMode("restart");
+	noloop()
 
 }
 
