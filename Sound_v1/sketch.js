@@ -17,7 +17,6 @@ function preload() {
 function setup() {
 	createCanvas (960, 600);
 	relaxSound.playMode("restart");
-	noloop()
 
 }
 
