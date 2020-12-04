@@ -21,7 +21,10 @@ function setup() {
 }
 
 function draw() {
-	background(welcomeImage);
+	background('white');
+
+	/* image */
+	image(welcomeImage, 0, 0, width, height);
 
 	if (relaxSound.isPlaying()) {
 		background(miamiImage);
