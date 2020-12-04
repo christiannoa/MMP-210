@@ -21,7 +21,7 @@ function setup() {
 }
 
 function draw() {
-	background('white');
+	background(0);
 
 	/* image */
 	image(welcomeImage, 0, 0, width, height);
