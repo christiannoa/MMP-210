@@ -8,9 +8,9 @@ var welcomeImage, miamiImage;
 var relaxSound;
 
 function preload() {
-	welcomeImage = loadImage('welcome.png');
-	miamiImage = loadImage('miami.jpg');
-	relaxSound = loadSound('vibe.mp3');
+	welcomeImage = loadImage("welcome.png");
+	miamiImage = loadImage("miami.jpg");
+	relaxSound = loadSound("vibe.mp3");
 
 }
 
