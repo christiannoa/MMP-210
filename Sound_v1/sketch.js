@@ -32,6 +32,7 @@ function draw() {
 
 function keyPressed() {
 		if (keyCode == 32) { //Space key
+			background(welcomeImage);
 			relaxSound.play();
 		} 
 
