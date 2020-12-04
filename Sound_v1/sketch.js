@@ -4,14 +4,14 @@
 
 */
 
-var relaxSound;
-var miamiImage;
 var welcomeImage;
+var miamiImage;
+var relaxSound;
 
 function preload() {
-	relaxSound = loadSound('vibe.mp3');
-	miamiImage = loadImage('miami.jpg');
 	welcomeImage = loadImage('welcome.png');
+	miamiImage = loadImage('miami.jpg');
+	relaxSound = loadSound('vibe.mp3');
 
 }
 
