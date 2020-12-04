@@ -8,9 +8,9 @@ var welcomeImage, miamiImage;
 var relaxSound;
 
 function preload() {
-	welcomeImage = loadImage('welcome.png');
-	miamiImage = loadImage('miami.jpg');
-	relaxSound = loadSound('vibe.mp3');
+	welcomeImage = loadImage("welcome.png");
+	miamiImage = loadImage("miami.jpg");
+	relaxSound = loadSound("vibe.mp3");
 
 }
 
@@ -31,12 +31,10 @@ function draw() {
 
 function keyPressed() {
 		if (keyCode == 32) { //Space key
-			image(welcomeImage);
 			relaxSound.play();
 		} 
 
 		if (keyCode == 13) { //Enter key
-			image(miamiImage);
 			relaxSound.pause();
 		} 
 
