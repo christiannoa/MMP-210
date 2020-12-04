@@ -17,14 +17,10 @@ function preload() {
 function setup() {
 	createCanvas (960, 600);
 	relaxSound.playMode("restart");
-
 }
 
 function draw() {
-	background(0);
-
-	/* image */
-	image(welcomeImage, 0, 0, width, height);
+	background(welcomeImage);
 
 	if (relaxSound.isPlaying()) {
 		background(miamiImage);
