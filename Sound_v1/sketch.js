@@ -4,8 +4,7 @@
 
 */
 
-var welcomeImage;
-var miamiImage;
+var welcomeImage, miamiImage;
 var relaxSound;
 
 function preload() {
@@ -32,10 +31,12 @@ function draw() {
 
 function keyPressed() {
 		if (keyCode == 32) { //Space key
+			image(welcomeImage);
 			relaxSound.play();
 		} 
 
 		if (keyCode == 13) { //Enter key
+			image(miamiImage);
 			relaxSound.pause();
 		} 
 
