@@ -79,6 +79,7 @@ function draw() {
 	
 	} else if (currentSlide == 4) {
 		// describe the graphics
+		image(galaxy, 0, 0, width, height);
 		textAlign(CENTER);
 		fill(255);
 		textSize(50);
