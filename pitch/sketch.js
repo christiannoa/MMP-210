@@ -68,7 +68,7 @@ function draw() {
 		textAlign(LEFT);
 		fill(255);
 		textSize(50);
-		text('My project is a generative landscape of space. I will be utilizing a few things I learned throughout the semester including interactivity, conditional logic, variables, external media, and fucntions and loops.', 50, 100, width - 100);
+		text('My project is a generative landscape of space. I will be utilizing a few things I learned throughout the semester including interactivity, conditional logic, variables, external media, and functions and loops to create a galaxy with planets.', 50, 100, width - 100);
 
 	} else if (currentSlide == 3) {
 		// describe the interaction
